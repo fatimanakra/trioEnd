@@ -1,0 +1,29 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh; /* Garantit que la section occupe au moins toute la hauteur de l'écran */
+}
+
+.title-container {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%; /* Garantit que l'image ne dépasse pas la largeur de son conteneur */
+  height: auto; /* Ajuste automatiquement la hauteur pour maintenir les proportions */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
